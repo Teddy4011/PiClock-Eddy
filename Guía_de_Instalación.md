@@ -33,6 +33,26 @@ python2 PyQtPiClock.py
 Proyecto mantenido por **Teddy4011**  
 🎬 YouTube & GitHub Ready
 
+---
+
+## 🔁 Autoinicio de PiClock al encender
+
+Para que PiClock se inicie automáticamente cuando enciendas tu Raspberry Pi:
+
+1. Abre tu terminal y ejecuta:
+
+```bash
+mkdir -p ~/.config/lxsession/LXDE-pi/
+nano ~/.config/lxsession/LXDE-pi/autostart
+agrega la siguiente linea al nano y salva
+@python2 /home/pi/PiClock/Clock/PyQtPiClock.py
+
+
+---
+
+¡Y listo! 🔧 Tu guía ahora incluirá ese paso tan importante para dejar el reloj funcionando siempre sin intervención. Si quieres luego te ayudo a convertir esa guía en una versión imprimible o PDF, o incluso incluirla como pantalla de ayuda en el reloj mismo 📘🕰️
+
+¿Quieres que lo actualice también en el `README.md` para que esté duplicado en portada? ⏱️📦
 
 Agrego guía de instalación con pasos completos
 
