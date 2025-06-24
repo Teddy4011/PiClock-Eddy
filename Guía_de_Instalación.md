@@ -19,6 +19,14 @@ cd PiClock_Instalador
 chmod +x instalar_piclock.sh
 ./instalar_piclock.sh
 
+> ℹ️ Al finalizar la instalación, el script renombrará automáticamente los archivos de ejemplo:
+>
+> ```bash
+> ApiKeys_example.py → ApiKeys.py  
+> Config_example.py  → Config.py
+> ```
+>
+> Esto garantiza que tengas los archivos listos para personalizar sin sobrescribir tus cambios si ya los habías creado antes.
 
 nano ~/PiClock/Clock/ApiKeys.py
 nano ~/PiClock/Clock/Config.py
