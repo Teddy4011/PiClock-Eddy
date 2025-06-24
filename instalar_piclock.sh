@@ -18,6 +18,7 @@ cd PiClock/Clock
 # 4. Configuración de claves API y ubicación
 cp ApiKeys-example.py ApiKeys.py
 cp Config-Example.py Config.py
+sudo apt-get install python-dateutil -y #da error si no lo ejecutas estp para python2 y PiClock
 
 # 5. Crear servicio systemd
 sudo tee /etc/systemd/system/piclock.service > /dev/null <<EOF
