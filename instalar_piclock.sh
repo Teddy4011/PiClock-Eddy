@@ -19,6 +19,8 @@ cd PiClock/Clock
 cp ApiKeys-example.py ApiKeys.py
 cp Config-Example.py Config.py
 sudo apt-get install python-dateutil -y #da error si no lo ejecutas estp para python2 y PiClock
+cd ~/PiClock/Clock
+python PyQtPiClock.py
 
 # 5. Crear servicio systemd
 sudo tee /etc/systemd/system/piclock.service > /dev/null <<EOF
